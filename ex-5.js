@@ -1,4 +1,9 @@
 // Start coding here
-const minNumber = findMinNumber(10, 20);
 
-console.log(minNumber); // 10
+let a, b;
+Number(a, b);
+a = 10;
+b = 20;
+findMinNumber = Math.min(a, b);
+
+console.log(findMinNumber); //10
