@@ -1,9 +1,17 @@
 // Start coding here
-let calculator = {
-  add: (a, b) => a + b,
-  subtract: (a, b) => a - b,
-  mutiply: (a, b) => a * b,
-  divide: (a, b) => a / b,
+const calculator = {
+  add: (a, b) => {
+    return a + b;
+  },
+  subtract: (a, b) => {
+    return a - b;
+  },
+  mutiply: (a, b) => {
+    return a * b;
+  },
+  divide: (a, b) => {
+    return a / b;
+  },
 };
 let a = 10;
 let b = 20;
